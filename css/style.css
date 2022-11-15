@@ -227,6 +227,11 @@ textarea:focus {
   color: #b4003c;
   text-decoration: underline; }
 
+h5 {
+  color: bisque;
+  font-weight: bolder;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; }
+
 /*TABLET*/
 @media (max-width: 768px) {
   .barraNav {
@@ -267,6 +272,8 @@ textarea:focus {
     font-size: 12px; }
   h3 {
     font-size: 10px; }
+  .box {
+    height: 220px; }
   .box1 {
     width: 150px;
     margin-left: 10px; }

@@ -5,14 +5,12 @@
         font-size: 14px;
         padding: 5px 0px 0px 15px;
         gap: 12px;
-        
+        img{
+            width: 25px;
+            height: 25px;
+        }
     }
     
-    .barraNav img{
-        width: 25px;
-        height: 25px;
-    }
-
     h1{
         font-size: 20px;
     }
@@ -23,20 +21,21 @@
         font-size: 10px;
     }
     .box{
-        height: 220px;
+        height: 230px;
     }
     .box1{
         width: 150px;
         margin-left: 10px;
+        img{
+            width: 150px;
+            height: 150px;
+        }
     }
-    .box1 img{
-        width: 150px;
-        height: 150px;
-    }
+   
     .box2{
         width: 150px;
         margin-left: 10px;
-        margin-top: 10px;
+        margin-top: 0px;
     }
     main article {
         margin: 10px 0px 20px 10px;
@@ -51,19 +50,37 @@
         height: 24px;
         font-family: 'Reem Kufi Fun', sans-serif;
         font-size: 12px;
+        img{
+            width: 12px;
+            height: 12px;
+        }
+        
     }
-    .footerBar img{
-        width: 12px;
-        height: 12px;
-    }
-    
     .faq {
         margin: 5px 0px 20px 5px;
-        padding: 15px 15px 15px 25px;
-        width: 400px;
+        padding: 15px 15px 15px 15px;
+        width: 350px;
     }
 
     .contGrid{
         grid-template-rows: 35px 100px auto 30px;
     }
+
+    .contFlex{
+        width: 370px;
+        margin: 5px 0px 20px 5px;
+        padding: 15px 15px 15px 15px;
+        align-self: center;
+    }
+
+
+h5{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 18px;
+}
+
+.container-fluid{
+    height: 300px;
+}
+
 }
